@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS= -std=c11 -Wall -Werror -Wextra -c
 OFLAG= -lm -o
-DFLAG= -D_POSIX_C_SOURCE 200809L
+DFLAG= -D_POSIX_C_SOURCE=200809L
 #SRCCOS=../src/cos/s21_cos
 SRCLN=ln/
 LN=s21_ln
